@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: 'FontAwesome';
-  src:  url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.eot?v=4.2.0');
-  src:  url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.eot#iefix&v=4.2.0') format('embedded-opentype'),
-      url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),
-      url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
-      url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src:  url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src:  url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.eot#iefix&v=4.2.0') format('embedded-opentype'),
+      url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),
+      url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
+      url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
 }
 
 @font-face {
   font-family: 'simple-line-icons';
-  src: url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.eot');
-  src: url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.eot#iefix') format('embedded-opentype'),
-    url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.ttf') format('truetype'),
-    url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.woff2') format('woff2'),
-    url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.woff') format('woff'),
-    url('https://santamonicatennisclub.net/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.svg#simple-line-icons') format('svg');
+  src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.eot');
+  src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.eot#iefix') format('embedded-opentype'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.ttf') format('truetype'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.woff2') format('woff2'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.woff') format('woff'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/modern-events-calendar-lite/assets/fonts/Simple-Line-Icons.svg#simple-line-icons') format('svg');
 }
 
 

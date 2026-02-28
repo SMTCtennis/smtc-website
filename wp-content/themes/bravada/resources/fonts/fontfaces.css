@@ -14,11 +14,11 @@
 /* Glyph Icons */
 @font-face {
   font-family: 'iconmeta';
-  src:  url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/iconmeta.eot?9qd1ry');
-  src:  url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/iconmeta.eot?9qd1ry#iefix') format('embedded-opentype'),
-    url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/iconmeta.ttf?9qd1ry') format('truetype'),
-    url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/iconmeta.woff?9qd1ry') format('woff'),
-    url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/iconmeta.svg?9qd1ry#iconmeta') format('svg');
+  src:  url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/iconmeta.eot?9qd1ry');
+  src:  url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/iconmeta.eot?9qd1ry#iefix') format('embedded-opentype'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/iconmeta.ttf?9qd1ry') format('truetype'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/iconmeta.woff?9qd1ry') format('woff'),
+    url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/iconmeta.svg?9qd1ry#iconmeta') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -889,11 +889,11 @@
 /* Social Icons */
 @font-face {
     font-family: 'socials';
-    src: url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/socials.eot');
-    src: url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/socials.eot#iefix') format('embedded-opentype'),
-       url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/socials.woff') format('woff'),
-       url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/socials.ttf') format('truetype'),
-       url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/socials.svg#socials') format('svg');
+    src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/socials.eot');
+    src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/socials.eot#iefix') format('embedded-opentype'),
+       url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/socials.woff') format('woff'),
+       url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/socials.ttf') format('truetype'),
+       url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/socials.svg#socials') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -1377,11 +1377,11 @@
 /* Blocks font */
 @font-face {
     font-family: 'bravada-blocks';
-    src: url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/blocks.eot');
-    src: url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/blocks.eot#iefix') format('embedded-opentype'),
-        url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/blocks.woff') format('woff'),
-        url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/blocks.ttf') format('truetype'),
-        url('https://santamonicatennisclub.net/wp-content/themes/bravada/resources/fonts/blocks.svg#blocks') format('svg');
+    src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/blocks.eot');
+    src: url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/blocks.eot#iefix') format('embedded-opentype'),
+        url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/blocks.woff') format('woff'),
+        url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/blocks.ttf') format('truetype'),
+        url('https://smtctennis.github.io/smtc-website-preview/wp-content/themes/bravada/resources/fonts/blocks.svg#blocks') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;

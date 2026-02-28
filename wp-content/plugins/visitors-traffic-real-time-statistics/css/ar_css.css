@@ -21,7 +21,7 @@ body {height: 100%; margin:0; padding:0; overflow-x:hidden; font: 10px verdana;}
 	font-weight: normal;
 	margin: 0px;
 	padding: 4px;
-	background: #FFF url(https://santamonicatennisclub.net/wp-content/plugins/visitors-traffic-real-time-statistics/images/arrow_up.png) no-repeat 1% 50%; /* ## */
+	background: #FFF url(https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/visitors-traffic-real-time-statistics/images/arrow_up.png) no-repeat 1% 50%; /* ## */
 	border-bottom: 1px solid #CCC;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -30,7 +30,7 @@ body {height: 100%; margin:0; padding:0; overflow-x:hidden; font: 10px verdana;}
 	border-left: 1px solid #FFF;
 }
 .panelcollapsed h2{
-	background: #FFF url(https://santamonicatennisclub.net/wp-content/plugins/visitors-traffic-real-time-statistics/images/arrow_down.png) no-repeat 1% 50%; /* ## */
+	background: #FFF url(https://smtctennis.github.io/smtc-website-preview/wp-content/plugins/visitors-traffic-real-time-statistics/images/arrow_down.png) no-repeat 1% 50%; /* ## */
 	border-color: #CCC;
 }
 .panelcontent{

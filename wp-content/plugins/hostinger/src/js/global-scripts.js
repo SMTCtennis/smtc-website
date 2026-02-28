@@ -1,14 +1,40 @@
-import './autocomplete_steps'
+document.addEventListener('DOMContentLoaded', function() {
 
-(function ($) {
+    const pluginSplitClose = document.getElementById('plugin-split-close');
 
-	$(document).on('ready', function () {
-		const nonce = $('#hts_close_omnisend_nonce').val();
-		$('.hts-omnisend .notice-dismiss').on('click', function() {
-			$.post(ajaxurl, { action: 'hostinger_dismiss_omnisend_notice', nonce: nonce });
-			$('.hts-omnisend').remove();
-		});
+    if(pluginSplitClose) {
+        pluginSplitClose.addEventListener('click', function () {
+            let nonceElement = document.getElementById('hts_close_plugin_split_nonce');
 
-	});
+            if (!nonceElement) {
+                console.error('Nonce element not found.');
+                return;
+            }
 
-})(jQuery);
+            let nonce = nonceElement.value;
+
+            fetch(ajaxurl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'action': 'hostinger_dismiss_plugin_split_notice',
+                    'nonce': nonce
+                }),
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('hostinger-plugin-split-notice').style.display = 'none';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    }
+});
