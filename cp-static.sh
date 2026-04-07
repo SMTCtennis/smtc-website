@@ -9,6 +9,22 @@ if [[ -z "${LATEST_SRC}" ]]; then
   exit 1
 fi
 
+echo "================================================================"
+echo "  WARNING: This repo has direct HTML edits NOT in WordPress."
+echo "  Running this sync will OVERWRITE those edits, including:"
+echo "    - Contact page: courts/lessons section, USTA links"
+echo "    - All pages: Calendar added to hamburger menu"
+echo "    - Membership page: removed top link, added courts/lessons section"
+echo "  Make sure WordPress is updated first, or do NOT proceed."
+echo "================================================================"
+echo
+read -r -p "Type 'OVERRIDE' to acknowledge and continue: " WARN_ANSWER
+if [[ "${WARN_ANSWER}" != "OVERRIDE" ]]; then
+  echo "Aborted."
+  exit 2
+fi
+echo
+
 echo "Source: ${LATEST_SRC}"
 echo "Dest:   ${DEST_DIR}"
 echo
